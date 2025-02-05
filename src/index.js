@@ -1,3 +1,5 @@
 import "./style.css";
+import { main } from "./homePage.js";
 
-console.log("The js works :)");
+const currentContent = document.querySelector("#content");
+currentContent.appendChild(main);
