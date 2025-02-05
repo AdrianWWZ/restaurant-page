@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #f1f5f9;
+  --sub-color: #cad5e2;
+}
+
+body {
+  background-color: #ffdab9;
+  color: #000000;
+  font-size: 24px;
+}
+
+.nav {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.nav button {
+  width: 6rem;
+  height: 5rem;
+  border: none;
+  border-radius: 15px 15px 0 0;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.home-button {
+  right: 54%;
+  background-color: #f1f5f9;
+}
+
+.menu-button {
+  background-color: #ffa2a2;
+}
+
+.about-button {
+  left: 54%;
+  background-color: #b8e6fe;
+}
+.nav button span {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
+
+#content {
+  display: flex;
+  padding: 0 20% 20% 20%;
+  position: absolute;
+  z-index: 2;
+}
+
+.main {
+  background-color: var(--main-color);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  gap: 3rem;
+}
+
+.title {
+  background-color: var(--sub-color);
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+.intro {
+  background-color: var(--sub-color);
+  padding: 2rem;
+  border-radius: 15px;
+  width: 60%;
+  text-align: justify;
+}
+
+.hours {
+  background-color: var(--sub-color);
+  padding: 2rem;
+  border-radius: 15px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-title {
+  align-self: flex-start;
+}
+
+li {
+  list-style-type: none;
+}
+
+.location {
+  background-color: var(--sub-color);
+  padding: 2rem;
+  border-radius: 15px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
