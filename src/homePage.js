@@ -44,6 +44,15 @@ const locationText = document.createElement("p");
 locationText.innerText = "11 Dine Road, Detroit";
 location.append(locationTitle, locationText);
 
-main.append(title, intro, hours, location);
+const footer = document.createElement("div");
+footer.setAttribute("class", "footer");
+const creditText1 = document.createElement("p");
+creditText1.innerHTML = `Background Image from
+          <a href="https://unsplash.com/@scohron">Shelby Cohron</a>`;
+const creditText2 = document.createElement("p");
+creditText2.innerHTML = `Made by <a href="https://github.com/AdrianWWZ">Adrian Wong</a>`;
+footer.append(creditText1, creditText2);
+
+main.append(title, intro, hours, location, footer);
 
 export { main };
