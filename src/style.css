@@ -5,9 +5,9 @@
 }
 
 :root {
-  --main-color: #ffccd3; /*#f1f5f9*/
-  --sub-color: #ffa2a2; /*#cad5e2*/
-  --page-height: 140%; /* 125 140*/
+  --main-color: #f1f5f9;
+  --sub-color: #cad5e2;
+  --page-height: 125%;
 }
 
 body {
@@ -40,6 +40,7 @@ body {
   position: absolute;
   top: 50%;
   z-index: 1;
+  cursor: pointer;
 }
 
 .home-button {
