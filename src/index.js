@@ -1,6 +1,7 @@
 import "./style.css";
-import { main } from "./homePage.js";
+import { homePage } from "./homePage.js";
+import { menuPage } from "./menuPage.js";
 
 let currPage = "homePage";
 const currentContent = document.querySelector("#content");
-//currentContent.appendChild(main);
+currentContent.appendChild(menuPage);

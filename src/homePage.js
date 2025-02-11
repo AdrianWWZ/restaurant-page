@@ -1,5 +1,5 @@
-const main = document.createElement("div");
-main.setAttribute("class", "main");
+const homePage = document.createElement("div");
+homePage.setAttribute("class", "main");
 
 const title = document.createElement("h1");
 title.setAttribute("class", "title");
@@ -51,6 +51,6 @@ const creditText2 = document.createElement("p");
 creditText2.innerHTML = `Made by <a href="https://github.com/AdrianWWZ">Adrian Wong</a>`;
 footer.append(creditText1, creditText2);
 
-main.append(title, intro, hours, location, footer);
+homePage.append(title, intro, hours, location, footer);
 
-export { main };
+export { homePage };
