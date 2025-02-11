@@ -5,8 +5,8 @@
 }
 
 :root {
-  --main-color: #f1f5f9;
-  --sub-color: #cad5e2;
+  --main-color: #cefafe;
+  --sub-color: #b8e6fe;
   --page-height: 125%;
 }
 
@@ -54,7 +54,7 @@ body {
 
 .about-button {
   left: 54%;
-  background-color: #b8e6fe;
+  background-color: #cefafe;
 }
 .nav button span {
   position: absolute;
@@ -78,6 +78,7 @@ body {
   align-items: center;
   border-radius: 25px 25px 0 0;
   gap: 3rem;
+  width: 100%;
 }
 
 .title {
@@ -168,6 +169,29 @@ li {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.about-text {
+  background-color: var(--sub-color);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: justify;
+}
+
+.contact {
+  background-color: var(--sub-color);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: justify;
+  width: 60%;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.contact p {
+  align-self: center;
 }
 
 .footer {

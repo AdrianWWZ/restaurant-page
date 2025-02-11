@@ -34,4 +34,15 @@ document.querySelector(".menu-button").addEventListener("click", () => {
   }
 });
 
-currentContent.appendChild(homePage);
+document.querySelector(".about-button").addEventListener("click", () => {
+  if (currPage !== "aboutPage") {
+    currPage = "aboutPage";
+    //removePage();
+    //currentContent.appendChild(aboutPage);
+    r.style.setProperty("--main-color", "#cefafe#b8e6fe");
+    r.style.setProperty("--sub-color", "#b8e6fe");
+    r.style.setProperty("--page-height", "125%");
+  }
+});
+
+//currentContent.appendChild(homePage);
