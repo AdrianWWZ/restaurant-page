@@ -41,6 +41,11 @@ body {
   top: 50%;
   z-index: 1;
   cursor: pointer;
+  transition: top 0.25s ease-in-out;
+}
+
+.nav button:hover {
+  top: 30%;
 }
 
 .home-button {
