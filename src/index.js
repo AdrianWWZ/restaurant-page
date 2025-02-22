@@ -1,6 +1,7 @@
 import "./style.css";
 import { homePage } from "./homePage.js";
 import { menuPage } from "./menuPage.js";
+import { aboutPage } from "./aboutPage.js";
 
 let currPage = "homePage";
 const currentContent = document.querySelector("#content");
@@ -19,7 +20,7 @@ document.querySelector(".home-button").addEventListener("click", () => {
     currentContent.appendChild(homePage);
     r.style.setProperty("--main-color", "#f1f5f9");
     r.style.setProperty("--sub-color", "#cad5e2");
-    r.style.setProperty("--page-height", "125%");
+    r.style.setProperty("--page-height", "130%");
   }
 });
 
@@ -37,12 +38,12 @@ document.querySelector(".menu-button").addEventListener("click", () => {
 document.querySelector(".about-button").addEventListener("click", () => {
   if (currPage !== "aboutPage") {
     currPage = "aboutPage";
-    //removePage();
-    //currentContent.appendChild(aboutPage);
-    r.style.setProperty("--main-color", "#cefafe#b8e6fe");
+    removePage();
+    currentContent.appendChild(aboutPage);
+    r.style.setProperty("--main-color", "#cefafe");
     r.style.setProperty("--sub-color", "#b8e6fe");
-    r.style.setProperty("--page-height", "125%");
+    r.style.setProperty("--page-height", "155%");
   }
 });
 
-//currentContent.appendChild(homePage);
+currentContent.appendChild(homePage);

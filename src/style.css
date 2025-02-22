@@ -5,9 +5,9 @@
 }
 
 :root {
-  --main-color: #cefafe;
-  --sub-color: #b8e6fe;
-  --page-height: 125%;
+  --main-color: #f1f5f9;
+  --sub-color: #cad5e2;
+  --page-height: 130%;
 }
 
 body {
@@ -89,6 +89,7 @@ body {
 
 h3 {
   font-size: 36px;
+  margin-bottom: 1rem;
 }
 
 .intro {
